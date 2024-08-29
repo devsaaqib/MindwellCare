@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Assessment</title>
+    <link rel="stylesheet" href="assessment.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mental Health Assessment Test</h1>
+        <form id="assessmentForm">
+            <div class="question">
+                <label>1. How often do you feel anxious?</label>
+                <select name="anxiety" required>
+                    <option value="0">Never</option>
+                    <option value="1">Rarely</option>
+                    <option value="2">Sometimes</option>
+                    <option value="3">Often</option>
+                    <option value="4">Very Often</option>
+                </select>
+            </div>
+            <div class="question">
+                <label>2. How often do you feel depressed?</label>
+                <select name="depression" required>
+                    <option value="0">Never</option>
+                    <option value="1">Rarely</option>
+                    <option value="2">Sometimes</option>
+                    <option value="3">Often</option>
+                    <option value="4">Very Often</option>
+                </select>
+            </div>
+            <div class="question">
+                <label>3. How often do you have trouble sleeping?</label>
+                <select name="sleep" required>
+                    <option value="0">Never</option>
+                    <option value="1">Rarely</option>
+                    <option value="2">Sometimes</option>
+                    <option value="3">Often</option>
+                    <option value="4">Very Often</option>
+                </select>
+            </div>
+            <div class="question">
+                <label>4. Have you noticed any changes in your mood,thoughts,or behaviours?</label>
+                <select name="mood" required>
+                    <option value="0">Never</option>
+                    <option value="1">Rarely</option>
+                    <option value="2">Sometimes</option>
+                    <option value="3">Often</option>
+                    <option value="4">Very Often</option>
+                </select>
+            </div>
+            <div class="question">
+                <label>5. Have you experienced any traumatic events in the past?</label>
+                <select name="trauma" required>
+                    <option value="0">Never</option>
+                    <option value="1">Rarely</option>
+                    <option value="2">Sometimes</option>
+                    <option value="3">Often</option>
+                    <option value="4">Very Often</option>
+                </select>
+            </div>
+            <div class="question">
+                <label>6. Are you experiencing any changes in your appetite or eating habits?</label>
+                <select name="eatinghabits" required>
+                    <option value="0">Never</option>
+                    <option value="1">Rarely</option>
+                    <option value="2">Sometimes</option>
+                    <option value="3">Often</option>
+                    <option value="4">Very Often</option>
+                </select>
+            </div>
+            <div class="question">
+                <label>7. Have you ever had any suicidal thoughts or urges?</label>
+                <select name="suicide" required>
+                    <option value="0">Never</option>
+                    <option value="1">Rarely</option>
+                    <option value="2">Sometimes</option>
+                    <option value="3">Often</option>
+                    <option value="4">Very Often</option>
+                </select>
+            </div>
+            <div class="question">
+                <label>8. Do you feel supported and understoood by your loved ones?</label>
+                <select name="support" required>
+                    <option value="0">Never</option>
+                    <option value="1">Rarely</option>
+                    <option value="2">Sometimes</option>
+                    <option value="3">Often</option>
+                    <option value="4">Very Often</option>
+                </select>
+            </div>
+            <div class="question">
+                <label>9. Have you received any previous mental health treatment or support?</label>
+                <select name="experience" required>
+                    <option value="0">Never</option>
+                    <option value="1">Rarely</option>
+                    <option value="2">Sometimes</option>
+                    <option value="3">Often</option>
+                    <option value="4">Very Often</option>
+                </select>
+            </div>
+            <div class="question">
+                <label>10. How are you feeling lately?</label>
+                <select name="feeling" required>
+                    <option value="0">Happy</option>
+                    <option value="1">neutral</option>
+                    <option value="2">sad</option>
+                    <option value="3">depressed</option>
+                    <option value="4">dejected</option>
+                </select>
+            </div>
+             <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+        <div class="button-container">
+            <a href="homepageuser.html">
+                <button class="home-button">Home</button>
+            </a>
+            <a href="startmatchmaking.html">
+                <button class="menu-button">Back to Menu</button>
+        </div>
+    <a href="matching.html">
+        <button class="Matching">Match with therapist</button>
+    </a>
+            
+        </div>
+    </div>
+    <script src="assessment.js"></script>
+</body>
+</html

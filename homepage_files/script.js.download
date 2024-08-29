@@ -1,0 +1,22 @@
+// script.js
+document.addEventListener('DOMContentLoaded', () => {
+    const imageRow = document.querySelector('.image-row');
+
+    const options = {
+        threshold: 0.5 /* Container becomes visible when 50% of it is in the viewport */
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const images = entry.target.querySelectorAll('.pop-up-image');
+                images.forEach(image => {
+                    image.classList.add('show');
+                });
+                observer.unobserve(entry.target); // Stop observing the element after it appears
+            }
+        });
+    }, options);
+
+    observer.observe(imageRow); // Start observing the container
+});

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healing Journey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .step {
+            margin: 20px 0;
+        }
+
+        .step button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .step button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Your Healing Journey</h1>
+
+        <div class="step">
+            <h2>Step 1: Take a Short Assessment</h2>
+            <a style="padding-right: 20px; "href="assessment.html"> <button onclick="takeAssessment()">Start Assessment</button></a>
+        </div>
+
+        <div class="step">
+            <h2>Step 2: Get Matched with Licensed Therapists</h2>
+            <a style="padding-right: 20px; "href="matching.html"> <button onclick="getMatched()">Get Matched</button></a>
+        </div>
+
+        <div class="step">
+            <h2>Step 3: Start Your Healing Journey</h2>
+            <a style="padding-right: 20px; "href="startyourhealingjourney.html"> <button onclick="startHealing()">Start Healing</button></a>
+        </div>
+    </div>
+
+    <script>
+        function takeAssessment() {
+            alert("Redirecting to the assessment page...");
+            // Replace with the actual URL of the assessment page
+            window.location.href = "assessment.html";
+        }
+
+        function getMatched() {
+            alert("Finding licensed therapists for you...");
+            // Replace with the actual URL of the matching page
+            window.location.href = "match.html";
+        }
+
+        function startHealing() {
+            alert("Starting your healing journey...");
+            // Replace with the actual URL of the healing journey page
+            window.location.href = "healing.html";
+        }
+    </script>
+
+</body>
+</html>

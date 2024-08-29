@@ -1,0 +1,131 @@
+/* General Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+/* Container for the Form */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height:max-content;
+}
+
+/* Heading Style */
+.container h1 {
+    text-align: center;
+    color: #4a0072;
+    margin-bottom: 30px;
+}
+
+/* Question Label Style */
+.question {
+    margin-bottom: 20px;
+}
+
+.question label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4a0072;
+}
+
+/* Dropdown (Select) Style */
+.question select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button Style */
+button {
+    background-color: purple; /* Theme color */
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.veedu {
+    background-color: purple; /* Theme color */
+    color: #fff;
+    padding: 15px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+}
+.button-container {
+    display: flex; /* Use flexbox to align buttons side by side */
+    justify-content: center; /* Center them horizontally */
+    gap: 10px; /* Add space between the buttons */
+    margin-top: 20px; /* Add some space at the top */
+}
+
+.home-button, .menu-button {
+    padding: 10px 20px; /* Adjust padding for buttons */
+    margin-bottom: 20px;
+    font-size: 16px; /* Adjust font size */
+    background-color: #6a0dad; /* Example background color */
+    color: white; /* Example text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor change on hover */
+}
+
+.veedu1 {
+    background-color: purple; /* Theme color */
+    color: #fff;
+    padding: 15px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-content: flex-end;
+    width: 50%;
+    font-size: 18px;
+}
+button:hover {
+    background-color: #600095;
+}
+
+/* Result Display Style */
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+    color: #4a0072;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}

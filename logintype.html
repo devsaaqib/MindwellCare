@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Selection - Mindwell Care</title>
+    <style>
+        /* General Body Style */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container Style */
+        .login-selection-container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Heading Style */
+        .login-selection-container h1 {
+            color: purple; /* Theme color */
+            margin-bottom: 30px;
+        }
+
+        /* Button Styles */
+        .login-selection-container .btn {
+            background-color: purple;
+            color: #fff;
+            padding: 15px 30px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            width: 200px;
+        }
+
+        .login-selection-container .btn:hover {
+            background-color: #600095;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .login-selection-container {
+                width: 90%;
+                padding: 20px;
+            }
+
+            .login-selection-container .btn {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-selection-container">
+        <h1>Select Login Type</h1>
+        <button class="btn" onclick="location.href='loginuser.html'">User Login</button>
+        <button class="btn" onclick="location.href='loginadmin.html'">Therapist Login</button>
+    </div>
+
+</body>
+</html>

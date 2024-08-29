@@ -1,0 +1,70 @@
+/* General Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the login box */
+.login-container {
+    background-color: purple; /* Theme color */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px pink;
+}
+
+/* Login Box */
+.login-box {
+    background-color: #fff;
+    padding: 100px;
+    margin-left: 500px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Login Title */
+.login-box h1 {
+    margin-left: 50px;
+    color: #4a0072; 
+    text-align:justify;
+}
+
+/* Input Group Style */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Label and Input Style */
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Style */
+button {
+    background-color: purple; /* Theme color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #600095;
+}
